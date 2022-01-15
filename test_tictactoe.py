@@ -25,6 +25,10 @@ def test_clear_board():
     assert lst[0] == " "
     assert lst == list(" "*9)
     
+def test_get_names():
+    assert 1 != 2 
+    # v1, v2 = tictactoe.get_names()
+    
 def test_display_board_empty():
     ib = tictactoe.init_board()
     v = tictactoe.display_board(ib)
